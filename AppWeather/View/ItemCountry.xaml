@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="AppWeather.View.ItemCountry"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    BorderBrush="Blue"
+    d:DesignHeight="100" d:DesignWidth="200" Background="BlueViolet">
+    <Grid x:Name="item" Background="Blue" Margin="0,5,0,5" Tag="{Binding}">
+        <TextBlock Text="{Binding Name}" Margin="5,2,2,2" FontSize="25" />
+    </Grid>
+</UserControl>

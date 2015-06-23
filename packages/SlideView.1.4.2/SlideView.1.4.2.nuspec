@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SlideView</id>
+    <version>1.4.2</version>
+    <title>SlideView</title>
+    <authors>Cyril Cathala</authors>
+    <owners>Cyril Cathala</owners>
+    <licenseUrl>https://slideview.codeplex.com/license</licenseUrl>
+    <projectUrl>http://slideview.codeplex.com/</projectUrl>
+    <iconUrl>http://windowsapps.fr/Misc/SlideViewIcon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library contains many controls inspired by the official Facebook app on Windows Phone.
+      You will find several controls :
+      - The SlideView, a control allowing to slide between panels (2 or many more)
+      - The SlideApplicationFrame, a control to use at top app level and packaged to display 3 panels with navigation occuring in the middle panel
+      - The AutoHideBar, a control which is displayed when scrolling up in a list, and hidden when scrolling down
+      
+      Compatible with :
+      - Windows Phone Silverlight 7.1 / 8.0 / 8.1
+      - Windows Phone 8.1 (Store Apps)
+      
+      Please see the project website for more information, samples and how to use : http://slideview.codeplex.com.</description>
+    <summary>The SlideView library contains many controls inspired by the official Facebook app, such as sliding panels or top navigation bar.</summary>
+    <releaseNotes>- Fixed a bug when slide interactions are deactivated (https://slideview.codeplex.com/workitem/35393)
+      - Added a few property/event to the SlideApplicationFrame :
+            o SelectedPanelIndexChanged event to be notified when the user changes the selected panel (https://slideview.codeplex.com/workitem/35355)
+            o ToggleHeaderVisibility method to toggle the header visibility (https://slideview.codeplex.com/workitem/35387)</releaseNotes>
+    <copyright>Copyright Cyril Cathala 2014</copyright>
+    <language>en-US</language>
+    <tags>facebook panel sliding slide slideview windowsphone wp8 wp7 wp81 wpdev control autohidebar</tags>
+  </metadata>
+</package>
